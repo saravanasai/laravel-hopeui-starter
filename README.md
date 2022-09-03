@@ -20,6 +20,7 @@ This package should be used **immediately after installing Laravel**. If you add
 2. Run `composer require saravanasai/laravel-hopeui --dev`
 3. Run `php artisan hope-ui:setup` - it will install Hope UI admin Theme & add assets needed
 4. Run `php artisan serve`
+5. Go To  `/home`
 
 
 
