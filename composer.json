@@ -1,12 +1,12 @@
 {
     "name": "saravanasai/laravel-hopeui",
-    "description": "This is my package cms",
+    "description": "Laravel Hope -UI based starter kit",
     "keywords": [
-        "",
+        "Hope UI",
         "laravel",
-        "cms"
+        "Starter Kit"
     ],
-    "homepage": "https://github.com//cms",
+    "homepage": "https://github.com/saravanasai/laravel-hopeui-starter",
     "license": "MIT",
     "authors": [
         {
@@ -59,7 +59,5 @@
                 "Saravanasai\\Hopeui\\HopeUiServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
