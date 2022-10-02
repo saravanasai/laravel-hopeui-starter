@@ -5,7 +5,9 @@
 </div>
 
 
+
 @include('partials.scripts')
+@livewireScripts
 </body>
 
 </html>

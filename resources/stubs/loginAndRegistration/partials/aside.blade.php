@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="{{ route('home') }}">
+                    <a class="nav-link " aria-current="page" href="{{ route('app.home') }}">
                         <i class="icon">
                             <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.4"
@@ -83,7 +83,7 @@
                     </a>
                     <ul class="sub-nav collapse" id="horizontal-menu" data-bs-parent="#sidebar-menu">
                         <li class="nav-item">
-                            <a class="nav-link " href="{{ route('user') }}">
+                            <a class="nav-link " href="{{ route('app.user') }}">
                                 <i class="icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24"
                                         fill="currentColor">
@@ -95,21 +95,6 @@
                                 </i>
                                 <i class="sidenav-mini-icon"> U </i>
                                 <span class="item-name"> Users </span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="{{ route('login') }}">
-                                <i class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24"
-                                        fill="currentColor">
-                                        <g>
-                                            <circle cx="12" cy="12" r="8"
-                                                fill="currentColor"></circle>
-                                        </g>
-                                    </svg>
-                                </i>
-                                <i class="sidenav-mini-icon"> L </i>
-                                <span class="item-name">Login</span>
                             </a>
                         </li>
                         <li class="nav-item">

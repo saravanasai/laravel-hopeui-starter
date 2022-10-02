@@ -17,4 +17,4 @@
 <!-- AOS Animation Plugin-->
 <script src="{{ asset('assets/vendor/aos/dist/aos.js') }}"></script>
 <!-- App Script -->
-<script src="{{ asset('assets/js/hope-ui.js') }}" defer></script>
+<script src="{{ asset('assets/js/hope-ui.js') }}" ></script>
