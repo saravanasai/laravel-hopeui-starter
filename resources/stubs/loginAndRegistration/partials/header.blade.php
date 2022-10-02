@@ -32,5 +32,5 @@
             display: none;
         }
     </style>
-
+  @livewireStyles
 </head>

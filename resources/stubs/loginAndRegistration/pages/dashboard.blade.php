@@ -1,5 +1,6 @@
 @extends('layouts.dashboard')
 
+@section('tab_tittle', 'Dashboard')
 
 @section('content')
     <div class="row row-cols-1">
