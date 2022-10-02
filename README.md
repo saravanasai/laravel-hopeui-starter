@@ -27,7 +27,7 @@ In the current version, there are 2 .
 -  only-Login  
 -  Login-&-Registration
 
-5. Run `php artisan migrate:fresh --seed` - it will install Hope UI admin Theme & add assets needed
+5. Run `php artisan migrate:fresh --seed` - it will run migrations & seed admin login deatils
 6. Run `php artisan serve`
 7. Go To  `/home`
 
