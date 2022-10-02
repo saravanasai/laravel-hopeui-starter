@@ -2,7 +2,7 @@
 
 Package to install a regular Laravel Project  with a Hope UI design theme.
 
-Works only with the latest Laravel 9.
+Works only with the latest Laravel 9. Under the hood livewire is used for basic login & registeration
 
 
 
@@ -19,8 +19,17 @@ This package should be used **immediately after installing Laravel**. If you add
 1. Install fresh Laravel project
 2. Run `composer require saravanasai/laravel-hopeui --dev`
 3. Run `php artisan hope-ui:setup` - it will install Hope UI admin Theme & add assets needed
-4. Run `php artisan serve`
-5. Go To  `/home`
+4. Choose The Authentication Type 
+5. ## Available Authentication Types
+
+In the current version, there are 2 . 
+
+-  only-Login  
+-  Login-&-Registration
+
+5. Run `php artisan migrate:fresh --seed` - it will install Hope UI admin Theme & add assets needed
+6. Run `php artisan serve`
+7. Go To  `/home`
 
 
 
