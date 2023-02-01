@@ -24,7 +24,7 @@
     <!-- Wrapper End-->
     <!-- Library Bundle Script -->
     @include('partials.scripts')
-
+    @livewireScripts
     @yield('scripts')
 </body>
 
