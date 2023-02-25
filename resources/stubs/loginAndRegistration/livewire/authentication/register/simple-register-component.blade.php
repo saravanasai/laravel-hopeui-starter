@@ -67,39 +67,18 @@
                                             @enderror
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 d-flex justify-content-center">
+                                    <div class="col-lg-12 d-flex justify-content-between">
                                         <div class="form-check mb-3">
-                                            <input type="checkbox" class="form-check-input" id="customCheck1">
-                                            <label wire:model="rememberMe" class="form-check-label" for="customCheck1">I
-                                                agree with the terms of
-                                                use</label>
+                                            <input wire:model="rememberMe" type="checkbox" class="form-check-input"
+                                                id="customCheck1">
+                                            <label class="form-check-label" for="customCheck1">Remember Me</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <button type="submit" class="btn btn-primary">Sign Up</button>
                                 </div>
-                                <p class="text-center my-3">or sign in with other accounts?</p>
-                                <div class="d-flex justify-content-center">
-                                    <ul class="list-group list-group-horizontal list-group-flush">
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/fb.svg"
-                                                    alt="fb"></a>
-                                        </li>
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/gm.svg"
-                                                    alt="gm"></a>
-                                        </li>
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/im.svg"
-                                                    alt="im"></a>
-                                        </li>
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/li.svg"
-                                                    alt="li"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                                 <p class="mt-3 text-center">
                                     Already have an Account <a href="{{route('login')}}" class="text-underline">Sign In</a>
                                 </p>
