@@ -41,7 +41,6 @@
                                                 <div class="text-danger m-1">{{ $message }}</div>
                                             @enderror
                                         </div>
-
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
@@ -60,33 +59,17 @@
                                                 id="customCheck1">
                                             <label class="form-check-label" for="customCheck1">Remember Me</label>
                                         </div>
-                                        {{-- <a href="recoverpw.html">Forgot Password?</a> --}}
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <button type="submit" class="btn btn-primary">Sign In</button>
                                 </div>
-                                <p class="text-center my-3">or sign in with other accounts?</p>
-                                <div class="d-flex justify-content-center">
-                                    <ul class="list-group list-group-horizontal list-group-flush">
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/fb.svg"
-                                                    alt="fb"></a>
-                                        </li>
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/gm.svg"
-                                                    alt="gm"></a>
-                                        </li>
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/im.svg"
-                                                    alt="im"></a>
-                                        </li>
-                                        <li class="list-group-item border-0 pb-0">
-                                            <a href="#"><img src="../../assets/images/brands/li.svg"
-                                                    alt="li"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <p class="mt-3 text-center">
+                                    Don’t have an account?
+                                    <a href="{{ route('register') }}" class="text-underline">
+                                        Click here
+                                        to sign up.</a>
+                                </p>
                             </form>
                         </div>
                     </div>
