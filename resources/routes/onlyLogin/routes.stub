@@ -19,6 +19,13 @@ Route::group(['prefix' => 'dashboard', 'as' => 'app.', 'middleware' => ['web','a
         function () {
 
             Route::get(
+                'my-profile',
+                function () {
+                        return view('pages.profile');
+                    }
+            )->name('my-profile');
+
+            Route::get(
                 'change-password',
                 function () {
                         return view('pages.change-password');

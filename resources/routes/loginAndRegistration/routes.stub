@@ -18,6 +18,14 @@ Route::group(['prefix' => 'dashboard', 'as' => 'app.', 'middleware' => ['web','a
         ['prefix' => 'settings', 'as' => 'setting.'],
         function () {
 
+
+             Route::get(
+                'my-profile',
+                function () {
+                        return view('pages.profile');
+                    }
+            )->name('my-profile');
+            
             Route::get(
                 'change-password',
                 function () {
