@@ -59,6 +59,7 @@
                         </li>
                         <li><a class="dropdown-item" href="{{ route('app.setting.change-password') }}">Change
                                 Password</a></li>
+
                         <li>
                             <hr class="dropdown-divider">
                         </li>

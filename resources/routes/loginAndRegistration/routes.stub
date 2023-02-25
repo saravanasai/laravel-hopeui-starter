@@ -25,7 +25,7 @@ Route::group(['prefix' => 'dashboard', 'as' => 'app.', 'middleware' => ['web','a
                         return view('pages.profile');
                     }
             )->name('my-profile');
-
+            
             Route::get(
                 'change-password',
                 function () {

@@ -14,11 +14,9 @@ Route::group(['prefix' => 'dashboard', 'as' => 'app.', 'middleware' => ['web','a
         return view('pages.user');
     })->name('user');
 
-
      Route::group(
         ['prefix' => 'settings', 'as' => 'setting.'],
         function () {
-
 
             Route::get(
                 'my-profile',
